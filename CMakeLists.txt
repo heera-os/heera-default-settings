@@ -8,3 +8,4 @@ set(CONFIGFILES
 )
 
 install(FILES ${CONFIGFILES} DESTINATION ~/.config/heeraos/)
+install(FILES ${CONFIGFILES} DESTINATION /etc/skell/.config/heeraos/)
